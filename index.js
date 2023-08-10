@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const sumeetRouter = require('./routes/sumeet')
 
 app.get('/', (req,res)=>{
     res.send("Landing Page AAVAAS");
@@ -25,10 +26,9 @@ app.get('/aayush', (req,res)=>{
     res.send("Aayush Page");
 })
 
-app.get('/sumeet', (req,res)=>{
-    res.send("Sumeet Page");
-})
+app.use('/sumeet', sumeetRouter)
 
 app.listen(6900, (req,res)=>{
     console.log("Connection at port 6900")
 })
+app.use(express.static('public'))
