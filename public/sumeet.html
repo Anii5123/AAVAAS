@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumeet Shah's Portfolio</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-picture {
+            border-radius: 50%;
+            border: 4px solid #fff;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            margin-right: 1rem;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.5s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        
+
+        section {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #694747;
+            color: #a532325e;
+            padding: 10px 15px;
+            border-radius: 50%;
+            opacity: 1;
+            cursor: pointer;
+            display: none;
+        }
+
+        .back-to-top:hover {
+            opacity: 0.5;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 2px solid #333;
+        }
+        
+        th, td {
+            border: 2px solid #333; 
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #914c0c; 
+        }
+
+        tr:nth-child(even) {
+            background-color: #ac377fb6; 
+        }
+
+        .home{text-align: center;}
+    </style>
+     <link rel="stylesheet" href="s3.css">
+</head>
+<body bgcolor="bisque">
+    <div class="door-wrapper">
+        <div class="door-left"></div>
+        <div class="door-right"></div>
+    </div>
+    <div class="content-wrapper">
+    <header>
+        <div class="profile-picture">
+           <img src="crazzeee.jpeg" alt="" >
+        </div>
+        <div>
+            <h1>Shah Sumeet</h1>
+            <p>IT Engineer | Philosopher | Dreamer</p>
+        </div>
+    </header>
+
+    <nav>
+        
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Educational Qualification</a>
+        <a href="#skills">My Skills</a>
+        
+        <a href="#hobbies">Hobbies</a>
+        
+        <a href="#contact">Contact Me</a>
+        <a href="#resume">Resume</a>
+    </nav>
+
+    <section id="home" >
+       
+        <h2 ><u><i>Welcome to My Portfolio</i></u></h2>
+            <p>Feel free to explore my work and skills.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <ul><li>The <b>Protagonist</b> of a tragic comedy called <B><i>"LIFE"</i></B>...</li><li>Hardworking, Patient, Calculative and Confident sort of a person.
+        </li><li>Lazy person who completes work just in time.</li><li>Good at
+            handling problem with minimum difficulties.</li><li>Good at
+                managing and leading group.</li><li>Man of my Words.</li></ul>
+        
+    </section>
+
+    <section id="education">
+        <h2><u>Educational Qualification</u> </h2>
+        <table>
+            <tr>
+                <th>Sr.No.:</th>
+                <th>Certificates</th>
+                <th>Board/University</th>
+                <th>Institution</th>
+                <th>Percentage/CGPA</th>
+                <th>Qualifying Year</th>
+            </tr>
+
+            <tr><td>1.</td>
+                <td>SSC</td>
+                <td>Maharashtra Board</td>
+                <td>A.A.E.H.S.,Palghar</td>
+                <td>80%</td>
+                <td>March 2020</td>
+            </tr>
+
+            <tr>
+                <td>2.</td>
+                <td>HSC</td>
+                <td>Maharashtra Board</td>
+                <td>S.D.S.M., Palghar</td>
+                <td>74.50%</td>
+                <td>March 2022</td>
+            </tr>
+
+            <tr>
+                <td>3.</td>
+                <td>BE.IT. SEM I</td>
+                <td>Mumbai University</td>
+                <td>T.C.E.T., Kandivali</td>
+                <td>8.27</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>4.</td>
+                <td>BE.IT. SEM II</td>
+                <td>Mumbai University</td>
+                <td>T.C.E.T., Kandivali</td>
+                <td>8.11</td>
+                <td>July 2023</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="skills">
+        <h2><u>My Skills </u></h2>
+        <ol type="I" style="list-style-type: upper-roman;"><li><b>Coding</b>
+                <ul  list-style-image: url('https://cdn3.vox-cdn.com/imported_assets/2230405/The-Undertaker-Logo.png');>
+                    <li>Front-End
+                        <ol type="I" style="list-style-type: lower-roman;"><li>HTML[Advanced]</li><li>JavaScript[Intermidate]</li><li>CSS[Advanced]</li></ol>
+                    </li>
+                    <li>Back-end [beginner]
+
+                    </li>
+                </ul>
+            </li>
+            <li><b>AutoCad</b> [Beginner]</li>
+
+            <li><b>MS Office's Softwares</b> [Advanced]</li>
+            <li><b>Canva Software</b>[Intermidiate]</li>
+        </ol>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+       <ul  list-style-image: url('https://cdn3.vox-cdn.com/imported_assets/2230405/The-Undertaker-Logo.png');>
+        <li>Swimming</li>
+        <li>Trekking</li>
+        <li>Martial Arts</li>
+        <li>Watching Movies/WebSeries 
+            <ul> 
+                <li>Sci-Fi</li>
+                <li>Horror</li>
+            </ul>
+        </li>
+        <li>Singing</li>
+        <li>Cycling</li>
+       </ul>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        
+        <p>
+            Connect with me on social media and feel free to reach out!
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/sumeet-shah-727366261" target="_blank">
+                    <img src="linkedin-icon.png" alt="LinkedIn" width="30" height="30">
+                    LinkedIn
+                </a>
+            </li><br>
+            <li>
+                <a href="https://www.instagram.com/_crazzeee_shah_/" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram" width="30" height="30">
+                    Instagram
+                </a>
+            </li><br>
+            <li>
+                <img src="phone-icon.png" alt="Mobile" width="30" height="30">
+                +91 9049495848
+            </li><br>
+            <li>
+                <a href="sumeetshah107@gmail.com">
+                    <img src="email-icon.png" alt="Email" width="30" height="30">
+                    Email
+                </a>
+            </li><br>
+
+            <li>
+               <img src="location.png" alt="LinkedIn" width="30" height="30">
+
+                Palghar,
+               Maharashtra, India 
+            </li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <p>Click the link below to open my Resume:</p>
+        <a href="/RESUME_SHAH.pdf" target="_blank"><H3 style="scrollbar-highlight-color: aquamarine;">Resume</H3></a>
+    
+    </section>
+
+    <button class="back-to-top" onclick="scrollToTop()"><img src="https://cdn4.iconfinder.com/data/icons/variety-of-arrows/32/arrows-19-512.png" height="20px" width="20px"></button>
+
+   
+    <script>
+       
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        
+        window.addEventListener
+        ('scroll', function() 
+            {
+             const backToTopButton = document.querySelector('.back-to-top');
+                if (window.scrollY > 500) {
+                     backToTopButton.style.display = 'block';} 
+                else {
+                backToTopButton.style.display = 'none';
+                    }
+            }
+        );
+
+    window.onload = function()
+         {
+        const contentWrapper = document.querySelector('.content-wrapper');
+        contentWrapper.classList.add('show-content');
+         };
+
+
+        
+    </script>
+
+
+    <footer>
+        <p>&copy; 2023 Sumeet Shah Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
